@@ -22,3 +22,4 @@ let gameList = [
 ];
 
 console.log(gameList);
+return response.json(gameList);
