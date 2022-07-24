@@ -1,7 +1,7 @@
 // Import Express.js
-const e = require('express');
+import e from 'express';
 // Import body-parser (to handle parameters more easily)
-const bodyParser = require('body-parser');
+import bodyParser from 'body-parser';
 
 // This variable defines the port of your computer where the API will be available
 const PORT = 3000;
