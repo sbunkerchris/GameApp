@@ -38,12 +38,13 @@ let gameList = [
   ];
 // console.log(gameList);
 
+const URL = window.location.href;
 
 // The code below starts the API with these parameters:
 // 1 - The PORT where your API will be available
 // 2 - The callback function (function to call) when your API is ready
 app.listen(PORT, () =>
-  console.log(`The games API is running on: http://localhost:${PORT}.`)
+  console.log(`The games API is running!`)
 );
 
 // The code below creates a GET route with these parameters:
