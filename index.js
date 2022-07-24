@@ -1,7 +1,7 @@
 // Import Express.js
-import e from 'express';
+import express from './node_modules/express';
 // Import body-parser (to handle parameters more easily)
-import bodyParser from 'body-parser';
+import bodyParser from './node_modules/body-parser';
 
 // This variable defines the port of your computer where the API will be available
 const PORT1 = 80;
@@ -10,7 +10,7 @@ const PORT2 = 443
 console.log("javascript is running!");
 
 // This variable instantiate the Express.js library
-const app = e();
+const app = express();
 
 // Indicate to Express.js that you're using an additional plugin to treat parameters
 app.use(bodyParser.urlencoded({ extended: true }));
