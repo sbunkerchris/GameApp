@@ -4,7 +4,10 @@ import e from 'express';
 import bodyParser from 'body-parser';
 
 // This variable defines the port of your computer where the API will be available
-const PORT = 3000;
+const PORT1 = 80;
+const PORT2 = 443
+
+console.log("javascript is running!");
 
 // This variable instantiate the Express.js library
 const app = e();
@@ -43,8 +46,12 @@ const URL = window.location.href;
 // The code below starts the API with these parameters:
 // 1 - The PORT where your API will be available
 // 2 - The callback function (function to call) when your API is ready
-app.listen(PORT, () =>
-  console.log(`The games API is running!`)
+app.listen(PORT1, () =>
+  console.log(`The games API is running on Port 80`)
+);
+
+app.listen(PORT2, () =>
+  console.log(`The games API is running on Port 443`)
 );
 
 // The code below creates a GET route with these parameters:
