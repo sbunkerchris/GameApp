@@ -4,7 +4,7 @@ import e from 'express';
 import bodyParser from 'body-parser';
 
 // This variable defines the port of your computer where the API will be available
-const PORT = 80;
+const PORT = 3000;
 
 // This variable instantiate the Express.js library
 const app = e();
