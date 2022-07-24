@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +14,5 @@
     "body-parser": "^1.20.0",
     "express": "^4.18.1"
   },
-  "type": "module",
-  "scripts": {
-    "deploy": "npm run build && gh-pages -d dist"
-  }
-  
+  "type": "module"  
 }
