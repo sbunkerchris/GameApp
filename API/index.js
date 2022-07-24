@@ -1,5 +1,5 @@
 // Import Express.js
-import express from "express";
+import e from "express";
 // Import body-parser (to handle parameters more easily)
 import bodyParser from "body-parser";
 
@@ -7,7 +7,7 @@ import bodyParser from "body-parser";
 const PORT = 3000;
 
 // This variable instantiate the Express.js library
-const app = express();
+const app = e();
 
 // Indicate to Express.js that you're using an additional plugin to treat parameters
 app.use(bodyParser.urlencoded({ extended: true }));
