@@ -58,7 +58,6 @@ app.get("/", (request, response) => {
 // Replace the route name
 app.get("/games", (request, response) => {
   // The function will return your gameList in a JSON
-  // Sample: { allgames: ["Make Time: How to Focus on what Matters Every Day", "The Power Of Habit"]}
   return response.json(gameList);
 });
 
