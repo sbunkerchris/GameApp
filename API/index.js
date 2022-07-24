@@ -1,5 +1,5 @@
 // Import Express.js
-import e from "express";
+const e = require('express');
 // Import body-parser (to handle parameters more easily)
 import bodyParser from "body-parser";
 
